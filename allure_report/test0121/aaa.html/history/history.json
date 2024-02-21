@@ -1,0 +1,22 @@
+{
+  "185d7756bd41bbf3e043a5f12c681dec" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "cbc0300584f03676",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert '张冰辉' in '<html class=\" \" lang=\"en\"><head><meta charset=\"utf-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\"><meta name...t src=\"/assets/js/chunk-vendors.975ab8e3.js\"></script><script src=\"/assets/js/app.61caffed.js\"></script></body></html>'\n +  where '<html class=\" \" lang=\"en\"><head><meta charset=\"utf-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\"><meta name...t src=\"/assets/js/chunk-vendors.975ab8e3.js\"></script><script src=\"/assets/js/app.61caffed.js\"></script></body></html>' = <selenium.webdriver.firefox.webdriver.WebDriver (session=\"42f841ab-a2a9-4d58-aedc-515427e20fb0\")>.page_source",
+      "time" : {
+        "start" : 1642729879886,
+        "stop" : 1642729904542,
+        "duration" : 24656
+      }
+    } ]
+  }
+}

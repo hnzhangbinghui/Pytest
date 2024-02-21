@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: assert '张冰辉' in '<html class=\" \" lang=\"en\"><head><meta charset=\"utf-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\"><meta name...t src=\"/assets/js/chunk-vendors.975ab8e3.js\"></script><script src=\"/assets/js/app.61caffed.js\"></script></body></html>'\n +  where '<html class=\" \" lang=\"en\"><head><meta charset=\"utf-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\"><meta name...t src=\"/assets/js/chunk-vendors.975ab8e3.js\"></script><script src=\"/assets/js/app.61caffed.js\"></script></body></html>' = <selenium.webdriver.firefox.webdriver.WebDriver (session=\"42f841ab-a2a9-4d58-aedc-515427e20fb0\")>.page_source",
+      "children" : [ {
+        "name" : "test_shuzi",
+        "uid" : "cbc0300584f03676",
+        "parentUid" : "151c4e119b6af0332e7e93f5f5f0bc8d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1642729879886,
+          "stop" : 1642729904542,
+          "duration" : 24656
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "151c4e119b6af0332e7e93f5f5f0bc8d"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

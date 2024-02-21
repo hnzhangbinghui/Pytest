@@ -1,0 +1,125 @@
+{
+  "uid" : "4457c12b8a86b3f9",
+  "name" : "test_baidu_search[j]",
+  "fullName" : "test_xdist.TestCase1#test_baidu_search",
+  "historyId" : "1cb06224c05102b1c4f5a717e7108e74",
+  "time" : {
+    "start" : 1643163875266,
+    "stop" : 1643163876271,
+    "duration" : 1005
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "login",
+    "time" : {
+      "start" : 1643163874230,
+      "stop" : 1643163874230,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "login2",
+    "time" : {
+      "start" : 1643163874230,
+      "stop" : 1643163874230,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "输出对应的字典的值！！！",
+      "time" : {
+        "start" : 1643163875266,
+        "stop" : 1643163876271,
+        "duration" : 1005
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "keyword",
+        "value" : "'j'"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "多线程并发测试"
+  }, {
+    "name" : "suite",
+    "value" : "test_xdist"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCase1"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-V45JC51"
+  }, {
+    "name" : "thread",
+    "value" : "21688-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_xdist"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "keyword",
+    "value" : "'j'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "1bc95ce1c37a0a89",
+      "status" : "passed",
+      "time" : {
+        "start" : 1643163092098,
+        "stop" : 1643163093114,
+        "duration" : 1016
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4457c12b8a86b3f9.json",
+  "parameterValues" : [ "'j'" ]
+}

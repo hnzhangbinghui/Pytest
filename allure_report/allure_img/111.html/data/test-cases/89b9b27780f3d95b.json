@@ -1,0 +1,105 @@
+{
+  "uid" : "89b9b27780f3d95b",
+  "name" : "test_2",
+  "fullName" : "test_allure2.TestClass#test_2",
+  "historyId" : "04fba8ad5181b0c076e58645f01d0c9f",
+  "time" : {
+    "start" : 1643180442416,
+    "stop" : 1643180442417,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "login",
+    "time" : {
+      "start" : 1643180442412,
+      "stop" : 1643180442412,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "login2",
+    "time" : {
+      "start" : 1643180442412,
+      "stop" : 1643180442412,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "1e3504ecb8d7d980",
+      "name" : "insert img",
+      "source" : "1e3504ecb8d7d980.png",
+      "type" : "image/png",
+      "size" : 59
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "功能测试用例2"
+  }, {
+    "name" : "feature",
+    "value" : "测试用例功能"
+  }, {
+    "name" : "suite",
+    "value" : "test_allure2"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestClass"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-V45JC51"
+  }, {
+    "name" : "thread",
+    "value" : "18076-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_allure2"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "89b9b27780f3d95b.json",
+  "parameterValues" : [ ]
+}

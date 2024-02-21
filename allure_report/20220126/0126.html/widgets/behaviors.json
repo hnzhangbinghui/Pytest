@@ -1,0 +1,15 @@
+{
+  "total" : 11,
+  "items" : [ {
+    "uid" : "841e969ddcc4e0d90e92774c4dde057c",
+    "name" : "多线程并发测试",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 10,
+      "unknown" : 0,
+      "total" : 10
+    }
+  } ]
+}

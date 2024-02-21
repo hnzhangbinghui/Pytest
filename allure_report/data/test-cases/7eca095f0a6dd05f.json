@@ -1,0 +1,114 @@
+{
+  "uid" : "7eca095f0a6dd05f",
+  "name" : "test_answer2[0-1]",
+  "fullName" : "test_shili.TestFunc#test_answer2",
+  "historyId" : "a57a5d622d8b1674ac301c3487f1a3a9",
+  "time" : {
+    "start" : 1642067392338,
+    "stop" : 1642067392338,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "xunit_setup_class_fixture_TestFunc",
+    "time" : {
+      "start" : 1642067392330,
+      "stop" : 1642067392330,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "3853b6410512366c",
+      "name" : "stdout",
+      "source" : "3853b6410512366c.txt",
+      "type" : "text/plain",
+      "size" : 28
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "xunit_setup_class_fixture_TestFunc::0",
+    "time" : {
+      "start" : 1642067392366,
+      "stop" : 1642067392366,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "测试用例2并进行参数化"
+  }, {
+    "name" : "feature",
+    "value" : "*****测试类*****"
+  }, {
+    "name" : "tag",
+    "value" : "success"
+  }, {
+    "name" : "suite",
+    "value" : "test_shili"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestFunc"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-V45JC51"
+  }, {
+    "name" : "thread",
+    "value" : "44332-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_shili"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expect",
+    "value" : "1"
+  }, {
+    "name" : "input",
+    "value" : "0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "success" ]
+  },
+  "source" : "7eca095f0a6dd05f.json",
+  "parameterValues" : [ "1", "0" ]
+}

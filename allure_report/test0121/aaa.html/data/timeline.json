@@ -1,0 +1,26 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "DESKTOP-V45JC51",
+    "children" : [ {
+      "name" : "56848-MainThread",
+      "children" : [ {
+        "name" : "test_shuzi",
+        "uid" : "cbc0300584f03676",
+        "parentUid" : "466119971109fdfb45a9c8d3cc908cc9",
+        "status" : "failed",
+        "time" : {
+          "start" : 1642729879886,
+          "stop" : 1642729904542,
+          "duration" : 24656
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "466119971109fdfb45a9c8d3cc908cc9"
+    } ],
+    "uid" : "44e3604be9360716950cfb2618145fba"
+  } ]
+}

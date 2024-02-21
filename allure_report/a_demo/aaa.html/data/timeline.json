@@ -1,0 +1,52 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "DESKTOP-V45JC51",
+    "children" : [ {
+      "name" : "42040-MainThread",
+      "children" : [ {
+        "name" : "test_func_0",
+        "uid" : "6bb5e20292a6a7a5",
+        "parentUid" : "e493d2176c8d7be351b7bbcc31213551",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642663075493,
+          "stop" : 1642663075493,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_func_1",
+        "uid" : "ff661bdfa471edbc",
+        "parentUid" : "e493d2176c8d7be351b7bbcc31213551",
+        "status" : "passed",
+        "time" : {
+          "start" : 1642663075500,
+          "stop" : 1642663075500,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_func_2",
+        "uid" : "13de94dc35020bfe",
+        "parentUid" : "e493d2176c8d7be351b7bbcc31213551",
+        "status" : "failed",
+        "time" : {
+          "start" : 1642663075508,
+          "stop" : 1642663075509,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e493d2176c8d7be351b7bbcc31213551"
+    } ],
+    "uid" : "44e3604be9360716950cfb2618145fba"
+  } ]
+}

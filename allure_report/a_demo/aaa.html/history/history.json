@@ -1,0 +1,60 @@
+{
+  "42678feaadb54ab5d1962fcff3b6ef6c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ff661bdfa471edbc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642663075500,
+        "stop" : 1642663075500,
+        "duration" : 0
+      }
+    } ]
+  },
+  "671faaf073522abbc6855342f84499db" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6bb5e20292a6a7a5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1642663075493,
+        "stop" : 1642663075493,
+        "duration" : 0
+      }
+    } ]
+  },
+  "cbf9a9b24a8c9fcdbff76086709b8c12" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "13de94dc35020bfe",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 2 == 0\n +  where 2 = func(-1)",
+      "time" : {
+        "start" : 1642663075508,
+        "stop" : 1642663075509,
+        "duration" : 1
+      }
+    } ]
+  }
+}

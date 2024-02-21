@@ -1,0 +1,116 @@
+{
+  "uid" : "2240bf4c20f4ab76",
+  "name" : "test_answer1",
+  "fullName" : "test_shili.TestFunc#test_answer1",
+  "historyId" : "4fbbb282760c3edd2124dece81c6cef5",
+  "time" : {
+    "start" : 1642067392331,
+    "stop" : 1642067392331,
+    "duration" : 0
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 4 == 5\n +  where 4 = func(3)",
+  "statusTrace" : "self = <Pytest.test_shili.TestFunc object at 0x000002190DE02580>\n\n    @pytest.mark.fail\n    @allure.story('测试用例1')\n    def test_answer1(self):\n        print('test_answer1')\n>       assert func(3) == 5\nE       assert 4 == 5\nE        +  where 4 = func(3)\n\ntest_shili.py:24: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "xunit_setup_class_fixture_TestFunc",
+    "time" : {
+      "start" : 1642067392330,
+      "stop" : 1642067392330,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert 4 == 5\n +  where 4 = func(3)",
+    "statusTrace" : "self = <Pytest.test_shili.TestFunc object at 0x000002190DE02580>\n\n    @pytest.mark.fail\n    @allure.story('测试用例1')\n    def test_answer1(self):\n        print('test_answer1')\n>       assert func(3) == 5\nE       assert 4 == 5\nE        +  where 4 = func(3)\n\ntest_shili.py:24: AssertionError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "3e107322ba36dd6a",
+      "name" : "stdout",
+      "source" : "3e107322ba36dd6a.txt",
+      "type" : "text/plain",
+      "size" : 40
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 1,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "xunit_setup_class_fixture_TestFunc::0",
+    "time" : {
+      "start" : 1642067392366,
+      "stop" : 1642067392366,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "*****测试类*****"
+  }, {
+    "name" : "story",
+    "value" : "测试用例1"
+  }, {
+    "name" : "tag",
+    "value" : "fail"
+  }, {
+    "name" : "suite",
+    "value" : "test_shili"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestFunc"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-V45JC51"
+  }, {
+    "name" : "thread",
+    "value" : "44332-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_shili"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ "fail" ]
+  },
+  "source" : "2240bf4c20f4ab76.json",
+  "parameterValues" : [ ]
+}

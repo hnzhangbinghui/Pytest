@@ -1,0 +1,73 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "测试用例功能",
+    "children" : [ {
+      "name" : "功能测试用例1",
+      "children" : [ {
+        "name" : "test_1",
+        "uid" : "4313ceae6103c7c1",
+        "parentUid" : "301126f3684f0a4783fcfc85697f7cca",
+        "status" : "passed",
+        "time" : {
+          "start" : 1643182551079,
+          "stop" : 1643182551079,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "301126f3684f0a4783fcfc85697f7cca"
+    }, {
+      "name" : "功能测试用例2",
+      "children" : [ {
+        "name" : "test_2",
+        "uid" : "209265b1f5efb38e",
+        "parentUid" : "9465d87a92a2cc5f3cf2a1e1ce29599a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1643182551081,
+          "stop" : 1643182551083,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9465d87a92a2cc5f3cf2a1e1ce29599a"
+    }, {
+      "name" : "功能测试用例3",
+      "children" : [ {
+        "name" : "test_3",
+        "uid" : "3908639bffe41829",
+        "parentUid" : "1e9731bc07bf39cc9e7f7e03006f6a81",
+        "status" : "failed",
+        "time" : {
+          "start" : 1643182551085,
+          "stop" : 1643182551086,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1e9731bc07bf39cc9e7f7e03006f6a81"
+    }, {
+      "name" : "test_4",
+      "uid" : "5a9aad38058b5a2c",
+      "parentUid" : "d9a5fba53b96974c4db6cd80416cc71f",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1643182551155,
+        "stop" : 1643182551155,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "d9a5fba53b96974c4db6cd80416cc71f"
+  } ]
+}

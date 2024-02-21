@@ -1,0 +1,11 @@
+[ {
+  "uid" : "4100753f80996741",
+  "name" : "test_shuzi",
+  "time" : {
+    "start" : 1642669962343,
+    "stop" : 1642669985306,
+    "duration" : 22963
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

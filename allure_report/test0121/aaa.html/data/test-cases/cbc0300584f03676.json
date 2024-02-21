@@ -1,0 +1,89 @@
+{
+  "uid" : "cbc0300584f03676",
+  "name" : "test_shuzi",
+  "fullName" : "PycharmProjects.anaconda.Pytest.child.test_html#test_shuzi",
+  "historyId" : "185d7756bd41bbf3e043a5f12c681dec",
+  "time" : {
+    "start" : 1642729879886,
+    "stop" : 1642729904542,
+    "duration" : 24656
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert '张冰辉' in '<html class=\" \" lang=\"en\"><head><meta charset=\"utf-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\"><meta name...t src=\"/assets/js/chunk-vendors.975ab8e3.js\"></script><script src=\"/assets/js/app.61caffed.js\"></script></body></html>'\n +  where '<html class=\" \" lang=\"en\"><head><meta charset=\"utf-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\"><meta name...t src=\"/assets/js/chunk-vendors.975ab8e3.js\"></script><script src=\"/assets/js/app.61caffed.js\"></script></body></html>' = <selenium.webdriver.firefox.webdriver.WebDriver (session=\"42f841ab-a2a9-4d58-aedc-515427e20fb0\")>.page_source",
+  "statusTrace" : "def test_shuzi():\n        driver=webdriver.Firefox()\n        driver.get(url=url)\n        sleep(3)\n        driver.maximize_window()\n        sleep(1)\n        account=driver.find_element_by_xpath(\"//input[@placeholder='登录账号']\")\n        account.click()\n        account.clear()\n        account.send_keys(\"zhangbinghui\")\n        sleep(2)\n        passwd=driver.find_element_by_xpath(\"//input[@placeholder='密码']\")\n        passwd.click()\n        passwd.clear()\n        passwd.send_keys(\"11111111111\")\n        sleep(2)\n        driver.find_element_by_xpath(\"//button[@class='el-button login-button el-button--default el-button--small']\").click()\n>       assert '张冰辉' in driver.page_source\nE       assert '张冰辉' in '<html class=\" \" lang=\"en\"><head><meta charset=\"utf-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\"><meta name...t src=\"/assets/js/chunk-vendors.975ab8e3.js\"></script><script src=\"/assets/js/app.61caffed.js\"></script></body></html>'\nE        +  where '<html class=\" \" lang=\"en\"><head><meta charset=\"utf-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\"><meta name...t src=\"/assets/js/chunk-vendors.975ab8e3.js\"></script><script src=\"/assets/js/app.61caffed.js\"></script></body></html>' = <selenium.webdriver.firefox.webdriver.WebDriver (session=\"42f841ab-a2a9-4d58-aedc-515427e20fb0\")>.page_source\n\nPycharmProjects\\anaconda\\Pytest\\child\\test_html.py:33: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "login2",
+    "time" : {
+      "start" : 1642729879884,
+      "stop" : 1642729879884,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "login",
+    "time" : {
+      "start" : 1642729879883,
+      "stop" : 1642729879884,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "PycharmProjects.anaconda.Pytest.child"
+  }, {
+    "name" : "suite",
+    "value" : "test_html"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-V45JC51"
+  }, {
+    "name" : "thread",
+    "value" : "56848-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "PycharmProjects.anaconda.Pytest.child.test_html"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "cbc0300584f03676.json",
+  "parameterValues" : [ ]
+}

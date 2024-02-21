@@ -1,0 +1,126 @@
+{
+  "uid" : "fc795591996deda6",
+  "name" : "test_answer3",
+  "fullName" : "test_shili.TestFunc#test_answer3",
+  "historyId" : "0f30af5171af5b3b418848fc33b8a160",
+  "time" : {
+    "start" : 1642067392364,
+    "stop" : 1642067392365,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "xunit_setup_class_fixture_TestFunc",
+    "time" : {
+      "start" : 1642067392330,
+      "stop" : 1642067392330,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "测试",
+      "time" : {
+        "start" : 1642067392364,
+        "stop" : 1642067392365,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "4fb8aeb27c267507",
+        "name" : "f9872494-a99d-44de-a53b-2b904b397854-attachment.attach",
+        "source" : "4fb8aeb27c267507.attach",
+        "type" : "text/plain",
+        "size" : 27
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "c472768c007d78b7",
+      "name" : "stdout",
+      "source" : "c472768c007d78b7.txt",
+      "type" : "text/plain",
+      "size" : 43
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 2,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "xunit_setup_class_fixture_TestFunc::0",
+    "time" : {
+      "start" : 1642067392366,
+      "stop" : 1642067392366,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "测试用例3"
+  }, {
+    "name" : "feature",
+    "value" : "*****测试类*****"
+  }, {
+    "name" : "suite",
+    "value" : "test_shili"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestFunc"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-V45JC51"
+  }, {
+    "name" : "thread",
+    "value" : "44332-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_shili"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "fc795591996deda6.json",
+  "parameterValues" : [ ]
+}

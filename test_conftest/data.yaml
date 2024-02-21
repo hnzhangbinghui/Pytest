@@ -1,0 +1,20 @@
+ab: zbh
+account:
+- ab
+login_url: http://192.168.99.158:9080/acp-custody/login.html
+passwd: Ysstech123!@#
+test:
+- account: ab
+- passwd: Ysstech123!@#
+person:
+  name: John
+  age: 30
+  address:
+    street: Main St.
+    city: Anytown
+    state: CA
+
+test_login_data:
+- ("ab","Ysstech123!@#")
+- ("zbh","")
+- ("smh","Ysstech123!@#")

@@ -1,0 +1,4 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Thu Jan 20 15:17:55 CST 2022","Thu Jan 20 15:17:55 CST 2022","0","","test_allure_demo","","","","test_func_0",""
+"passed","Thu Jan 20 15:17:55 CST 2022","Thu Jan 20 15:17:55 CST 2022","0","","test_allure_demo","","","","test_func_1",""
+"failed","Thu Jan 20 15:17:55 CST 2022","Thu Jan 20 15:17:55 CST 2022","1","","test_allure_demo","","","","test_func_2",""

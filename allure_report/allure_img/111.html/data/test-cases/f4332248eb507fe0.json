@@ -1,0 +1,120 @@
+{
+  "uid" : "f4332248eb507fe0",
+  "name" : "test_1",
+  "fullName" : "test_allure2.TestClass#test_1",
+  "historyId" : "0fd48f647c5a880cac3efce9c2611a5e",
+  "time" : {
+    "start" : 1643180442413,
+    "stop" : 1643180442413,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "login",
+    "time" : {
+      "start" : 1643180442412,
+      "stop" : 1643180442412,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "login2",
+    "time" : {
+      "start" : 1643180442412,
+      "stop" : 1643180442412,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "这个是第一个测试用例！！",
+      "time" : {
+        "start" : 1643180442413,
+        "stop" : 1643180442413,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "setup_function",
+        "value" : "<Pytest.test_allure2.TestClass object at 0x00000290A8138AF0>"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : true,
+    "stepsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "功能测试用例1"
+  }, {
+    "name" : "feature",
+    "value" : "测试用例功能"
+  }, {
+    "name" : "tag",
+    "value" : "website"
+  }, {
+    "name" : "suite",
+    "value" : "test_allure2"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestClass"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-V45JC51"
+  }, {
+    "name" : "thread",
+    "value" : "18076-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_allure2"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "website" ]
+  },
+  "source" : "f4332248eb507fe0.json",
+  "parameterValues" : [ ]
+}

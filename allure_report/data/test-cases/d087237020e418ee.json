@@ -1,0 +1,122 @@
+{
+  "uid" : "d087237020e418ee",
+  "name" : "test_answer2[2-2]",
+  "fullName" : "test_shili.TestFunc#test_answer2",
+  "historyId" : "1bf28ea0fc966a6ad5d2f9281fc1f57c",
+  "time" : {
+    "start" : 1642067392355,
+    "stop" : 1642067392356,
+    "duration" : 1
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 3 == 2\n +  where 3 = func(2)",
+  "statusTrace" : "self = <Pytest.test_shili.TestFunc object at 0x000002190DE5BE50>, input = 2, expect = 2\n\n    @pytest.mark.success\n    @pytest.mark.parametrize(\"input,expect\", {\n        (5, 6),\n        (7, 8),\n        (0, 1),\n        (2, 2)\n    })\n    @allure.story('测试用例2并进行参数化')\n    def test_answer2(self, input, expect):\n        print('test_answer2')\n>       assert func(input) == expect\nE       assert 3 == 2\nE        +  where 3 = func(2)\n\ntest_shili.py:36: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "xunit_setup_class_fixture_TestFunc",
+    "time" : {
+      "start" : 1642067392330,
+      "stop" : 1642067392330,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert 3 == 2\n +  where 3 = func(2)",
+    "statusTrace" : "self = <Pytest.test_shili.TestFunc object at 0x000002190DE5BE50>, input = 2, expect = 2\n\n    @pytest.mark.success\n    @pytest.mark.parametrize(\"input,expect\", {\n        (5, 6),\n        (7, 8),\n        (0, 1),\n        (2, 2)\n    })\n    @allure.story('测试用例2并进行参数化')\n    def test_answer2(self, input, expect):\n        print('test_answer2')\n>       assert func(input) == expect\nE       assert 3 == 2\nE        +  where 3 = func(2)\n\ntest_shili.py:36: AssertionError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "f60de3eb7b470074",
+      "name" : "stdout",
+      "source" : "f60de3eb7b470074.txt",
+      "type" : "text/plain",
+      "size" : 28
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 1,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "xunit_setup_class_fixture_TestFunc::0",
+    "time" : {
+      "start" : 1642067392366,
+      "stop" : 1642067392366,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "测试用例2并进行参数化"
+  }, {
+    "name" : "feature",
+    "value" : "*****测试类*****"
+  }, {
+    "name" : "tag",
+    "value" : "success"
+  }, {
+    "name" : "suite",
+    "value" : "test_shili"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestFunc"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-V45JC51"
+  }, {
+    "name" : "thread",
+    "value" : "44332-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_shili"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "expect",
+    "value" : "2"
+  }, {
+    "name" : "input",
+    "value" : "2"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ "success" ]
+  },
+  "source" : "d087237020e418ee.json",
+  "parameterValues" : [ "2", "2" ]
+}

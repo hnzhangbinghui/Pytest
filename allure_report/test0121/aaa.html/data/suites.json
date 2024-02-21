@@ -1,0 +1,26 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "PycharmProjects.anaconda.Pytest.child",
+    "children" : [ {
+      "name" : "test_html",
+      "children" : [ {
+        "name" : "test_shuzi",
+        "uid" : "cbc0300584f03676",
+        "parentUid" : "db6e296d7c5756f0173288e134a10cba",
+        "status" : "failed",
+        "time" : {
+          "start" : 1642729879886,
+          "stop" : 1642729904542,
+          "duration" : 24656
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "db6e296d7c5756f0173288e134a10cba"
+    } ],
+    "uid" : "0bbb9bb8f279033a94ac3ad135f87237"
+  } ]
+}

@@ -1,0 +1,111 @@
+{
+  "uid" : "209265b1f5efb38e",
+  "name" : "test_2",
+  "fullName" : "test_allure2.TestClass#test_2",
+  "historyId" : "04fba8ad5181b0c076e58645f01d0c9f",
+  "time" : {
+    "start" : 1643182551081,
+    "stop" : 1643182551083,
+    "duration" : 2
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "login",
+    "time" : {
+      "start" : 1643182551077,
+      "stop" : 1643182551078,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "login2",
+    "time" : {
+      "start" : 1643182551078,
+      "stop" : 1643182551078,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "ad601514a8de93e2",
+      "name" : "AAAAAAAAAAAAAA",
+      "source" : "ad601514a8de93e2.png",
+      "type" : "image/png",
+      "size" : 4787
+    }, {
+      "uid" : "bd60c74e19d35b48",
+      "name" : "14d7e9db-4443-4e0e-b542-c8e584025709-attachment.jpg",
+      "source" : "bd60c74e19d35b48.jpg",
+      "type" : "image/jpg",
+      "size" : 204131
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "测试用例功能"
+  }, {
+    "name" : "story",
+    "value" : "功能测试用例2"
+  }, {
+    "name" : "suite",
+    "value" : "test_allure2"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestClass"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-V45JC51"
+  }, {
+    "name" : "thread",
+    "value" : "21324-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_allure2"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "209265b1f5efb38e.json",
+  "parameterValues" : [ ]
+}

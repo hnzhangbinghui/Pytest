@@ -1,0 +1,11 @@
+[ {
+  "uid" : "cbc0300584f03676",
+  "name" : "test_shuzi",
+  "time" : {
+    "start" : 1642729879886,
+    "stop" : 1642729904542,
+    "duration" : 24656
+  },
+  "status" : "failed",
+  "severity" : "normal"
+} ]

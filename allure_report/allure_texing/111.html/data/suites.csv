@@ -1,0 +1,4 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Wed Jan 26 13:58:33 CST 2022","Wed Jan 26 13:58:33 CST 2022","0","","test_allure2","TestClass","","","test_1",""
+"passed","Wed Jan 26 13:58:33 CST 2022","Wed Jan 26 13:58:33 CST 2022","0","","test_allure2","TestClass","","","test_3",""
+"passed","Wed Jan 26 13:58:33 CST 2022","Wed Jan 26 13:58:33 CST 2022","1","","test_allure2","TestClass","","","test_2",""
